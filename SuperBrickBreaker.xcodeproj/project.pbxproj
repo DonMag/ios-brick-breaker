@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CF92C741D21A236003AE015 /* Block2.sks in Resources */ = {isa = PBXBuildFile; fileRef = 7CF92C731D21A236003AE015 /* Block2.sks */; };
 		A02160231D214F9B00ED0644 /* Ball.sks in Resources */ = {isa = PBXBuildFile; fileRef = A02160221D214F9B00ED0644 /* Ball.sks */; };
 		A02C40F51D1F77C300A2EB94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02C40F41D1F77C300A2EB94 /* AppDelegate.swift */; };
 		A02C40F71D1F77C300A2EB94 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A02C40F61D1F77C300A2EB94 /* GameScene.sks */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7CF92C731D21A236003AE015 /* Block2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Block2.sks; sourceTree = "<group>"; };
 		A02160221D214F9B00ED0644 /* Ball.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Ball.sks; sourceTree = "<group>"; };
 		A02C40F11D1F77C300A2EB94 /* SuperBrickBreaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperBrickBreaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A02C40F41D1F77C300A2EB94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				A02C40F41D1F77C300A2EB94 /* AppDelegate.swift */,
 				A02160221D214F9B00ED0644 /* Ball.sks */,
 				A02C412A1D1F7F7200A2EB94 /* Block.sks */,
+				7CF92C731D21A236003AE015 /* Block2.sks */,
 				A02C40F61D1F77C300A2EB94 /* GameScene.sks */,
 				A02C40F81D1F77C300A2EB94 /* GameScene.swift */,
 				A02C41261D1F782500A2EB94 /* MainMenu.sks */,
@@ -253,6 +256,7 @@
 				A02C40F71D1F77C300A2EB94 /* GameScene.sks in Resources */,
 				A02C41031D1F77C300A2EB94 /* LaunchScreen.storyboard in Resources */,
 				A02C41001D1F77C300A2EB94 /* Assets.xcassets in Resources */,
+				7CF92C741D21A236003AE015 /* Block2.sks in Resources */,
 				A02C412B1D1F7F7200A2EB94 /* Block.sks in Resources */,
 				A02C41271D1F782500A2EB94 /* MainMenu.sks in Resources */,
 				A02C40FE1D1F77C300A2EB94 /* Main.storyboard in Resources */,
@@ -376,7 +380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -416,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
