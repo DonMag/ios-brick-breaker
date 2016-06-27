@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A02160231D214F9B00ED0644 /* Ball.sks in Resources */ = {isa = PBXBuildFile; fileRef = A02160221D214F9B00ED0644 /* Ball.sks */; };
 		A02C40F51D1F77C300A2EB94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02C40F41D1F77C300A2EB94 /* AppDelegate.swift */; };
 		A02C40F71D1F77C300A2EB94 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A02C40F61D1F77C300A2EB94 /* GameScene.sks */; };
 		A02C40F91D1F77C300A2EB94 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02C40F81D1F77C300A2EB94 /* GameScene.swift */; };
@@ -16,6 +17,9 @@
 		A02C41031D1F77C300A2EB94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02C41011D1F77C300A2EB94 /* LaunchScreen.storyboard */; };
 		A02C410E1D1F77C400A2EB94 /* SuperBrickBreakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02C410D1D1F77C400A2EB94 /* SuperBrickBreakerTests.swift */; };
 		A02C41191D1F77C400A2EB94 /* SuperBrickBreakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02C41181D1F77C400A2EB94 /* SuperBrickBreakerUITests.swift */; };
+		A02C41271D1F782500A2EB94 /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = A02C41261D1F782500A2EB94 /* MainMenu.sks */; };
+		A02C41291D1F795000A2EB94 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02C41281D1F795000A2EB94 /* MainMenu.swift */; };
+		A02C412B1D1F7F7200A2EB94 /* Block.sks in Resources */ = {isa = PBXBuildFile; fileRef = A02C412A1D1F7F7200A2EB94 /* Block.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A02160221D214F9B00ED0644 /* Ball.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Ball.sks; sourceTree = "<group>"; };
 		A02C40F11D1F77C300A2EB94 /* SuperBrickBreaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperBrickBreaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A02C40F41D1F77C300A2EB94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A02C40F61D1F77C300A2EB94 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		A02C41141D1F77C400A2EB94 /* SuperBrickBreakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperBrickBreakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A02C41181D1F77C400A2EB94 /* SuperBrickBreakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperBrickBreakerUITests.swift; sourceTree = "<group>"; };
 		A02C411A1D1F77C400A2EB94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A02C41261D1F782500A2EB94 /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
+		A02C41281D1F795000A2EB94 /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		A02C412A1D1F7F7200A2EB94 /* Block.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Block.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +110,12 @@
 			isa = PBXGroup;
 			children = (
 				A02C40F41D1F77C300A2EB94 /* AppDelegate.swift */,
+				A02160221D214F9B00ED0644 /* Ball.sks */,
+				A02C412A1D1F7F7200A2EB94 /* Block.sks */,
 				A02C40F61D1F77C300A2EB94 /* GameScene.sks */,
 				A02C40F81D1F77C300A2EB94 /* GameScene.swift */,
+				A02C41261D1F782500A2EB94 /* MainMenu.sks */,
+				A02C41281D1F795000A2EB94 /* MainMenu.swift */,
 				A02C40FA1D1F77C300A2EB94 /* GameViewController.swift */,
 				A02C40FC1D1F77C300A2EB94 /* Main.storyboard */,
 				A02C40FF1D1F77C300A2EB94 /* Assets.xcassets */,
@@ -241,7 +253,10 @@
 				A02C40F71D1F77C300A2EB94 /* GameScene.sks in Resources */,
 				A02C41031D1F77C300A2EB94 /* LaunchScreen.storyboard in Resources */,
 				A02C41001D1F77C300A2EB94 /* Assets.xcassets in Resources */,
+				A02C412B1D1F7F7200A2EB94 /* Block.sks in Resources */,
+				A02C41271D1F782500A2EB94 /* MainMenu.sks in Resources */,
 				A02C40FE1D1F77C300A2EB94 /* Main.storyboard in Resources */,
+				A02160231D214F9B00ED0644 /* Ball.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +284,7 @@
 				A02C40F91D1F77C300A2EB94 /* GameScene.swift in Sources */,
 				A02C40FB1D1F77C300A2EB94 /* GameViewController.swift in Sources */,
 				A02C40F51D1F77C300A2EB94 /* AppDelegate.swift in Sources */,
+				A02C41291D1F795000A2EB94 /* MainMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +513,7 @@
 				A02C411F1D1F77C400A2EB94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A02C41201D1F77C400A2EB94 /* Build configuration list for PBXNativeTarget "SuperBrickBreakerTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +522,7 @@
 				A02C41221D1F77C400A2EB94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A02C41231D1F77C400A2EB94 /* Build configuration list for PBXNativeTarget "SuperBrickBreakerUITests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +531,7 @@
 				A02C41251D1F77C400A2EB94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
